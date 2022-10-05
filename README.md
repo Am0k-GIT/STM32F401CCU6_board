@@ -17,8 +17,8 @@
 
 Плата поддерживает и протестированна с прошивкой на базе Marlin 2.1.1. В репозитории вы можете найти как саму прошивку под самосборную кинематику Core-XY, так и инструкцию по модицикации исходников Marlin. Для компиляции использовался Visual Studio Code с установленным PlatformIO, перед сборкой выбираем окружение env:blackpill_f401cc_env.
 <p align="center">
-  <img src="images/board_top.svg" height="450"/>
-  <img src="images/board_bottom.svg" height="450"/>
+  <img src="images/board_top.svg" height="300"/>
+  <img src="images/board_bottom.svg" height="300"/>
 </p>
 
 ## Особенности
