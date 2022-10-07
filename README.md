@@ -15,7 +15,10 @@
 
 ## Marlin 2.1.1
 
-Плата поддерживает и протестированна с прошивкой на базе Marlin 2.1.1. В репозитории вы можете найти как саму прошивку под самосборную кинематику Core-XY, так и инструкцию по модицикации исходников Marlin. Для компиляции использовался Visual Studio Code с установленным PlatformIO, перед сборкой выбираем окружение env:blackpill_f401cc_env.
+Плата поддерживает и протестированна с прошивкой на базе Marlin 2.1.1. В репозитории вы можете найти как сами исходники прошивки под самосборную кинематику Core-XY, так и инструкцию по модицикации оригинальных исходников <a href="https://marlinfw.org/meta/download/Marlin">Marlin</a>. Для компиляции использовался <a href="https://code.visualstudio.com">Visual Studio Code</a> с установленным PlatformIO, перед сборкой выбираем окружение [env:blackpill_f401cc_env]. Так же вам могут быть полезны следующие программы для заливки прошивки по DFU:
+ * <a href="https://www.st.com/en/development-tools/stsw-stm32080.html">DfuSe USB device firmware upgrade</a>
+ * <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32 Cube Programmer</a>
+
 <p align="center">
   <img src="images/board_top.png" height="300"/>
   <img src="images/board_bottom.png" height="300"/>
