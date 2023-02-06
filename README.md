@@ -7,10 +7,6 @@
 
 <h1 align="center">STM32F401CCU6 3D Printer board</h1>
 
-<p align="center">
-    <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
-</p>
-
 Проект открытой материнской платы 3D принтера на основе МК STM32F401CCU6.
 По <a href="https://github.com/Am0k-GIT/STM32F401CCU6_UNI">ссылке</a> доступен обновленный вариант универсальной управляющей платы (совместимости по пинам нет).
 
