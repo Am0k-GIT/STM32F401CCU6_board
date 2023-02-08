@@ -12,7 +12,7 @@
 
 ## Marlin 2.1.2
 
-Плата поддерживает и протестированна с прошивкой на базе Marlin 2.1.2. В репозитории вы можете найти как сами исходники модифицированной прошивки с уже добавленной поддержкой платы, так и инструкцию по модицикации оригинальных исходников <a href="https://marlinfw.org/meta/download/Marlin">Marlin</a>. Для компиляции использовался <a href="https://code.visualstudio.com">Visual Studio Code</a> с установленным PlatformIO, перед сборкой выбираем окружение [env:blackpill_f401cc_uni]. Так же вам могут быть полезны следующие программы для заливки прошивки по DFU:
+Плата поддерживает и протестированна с прошивкой на базе Marlin 2.1.2. В репозитории вы можете найти как сами исходники модифицированной прошивки с уже добавленной поддержкой платы, так и инструкцию по модицикации оригинальных исходников <a href="https://github.com/MarlinFirmware/Marlin">Marlin</a>. Для компиляции использовался <a href="https://code.visualstudio.com">Visual Studio Code</a> с установленным PlatformIO, перед сборкой выбираем окружение [env:blackpill_f401cc_uni]. Так же вам могут быть полезны следующие программы для заливки прошивки по DFU:
  * <a href="https://www.st.com/en/development-tools/stsw-stm32080.html">DfuSe USB device firmware upgrade</a>
  * <a href="https://www.st.com/en/development-tools/stm32cubeprog.html">STM32 Cube Programmer</a>
 
