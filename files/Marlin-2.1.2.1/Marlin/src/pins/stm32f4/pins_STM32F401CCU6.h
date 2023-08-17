@@ -102,12 +102,11 @@
 // EEPROM Emulation
 //
 
-#if NO_EEPROM_SELECTED
-  #define FLASH_EEPROM_EMULATION                  // Use Flash-based EEPROM emulation
-  #define EEPROM_SIZE           0x4000                                       // 16kB
-  #define FLASH_SECTOR          (FLASH_SECTOR_TOTAL - 1)
-  #define FLASH_UNIT_SIZE       0x4000                                       // 16kB
-#endif
+#define FLASH_EEPROM_EMULATION
+#define FLASH_EEPROM_LEVELING
+#define EEPROM_SIZE           0x4000                                           // 16kB
+#define FLASH_SECTOR          (FLASH_SECTOR_TOTAL - 1)
+#define FLASH_UNIT_SIZE       0x4000                                           // 16kB
 
 /**
  *                   ______                              ______                             
