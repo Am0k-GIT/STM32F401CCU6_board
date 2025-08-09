@@ -747,7 +747,7 @@
 #elif MB(CREALITY_F401RE)
   #include "stm32f4/pins_CREALITY_F401.h"           // STM32F4                              env:STM32F401RE_creality
 #elif MB(STM32F401CCU6)
-  #include "stm32f4/pins_STM32F401CCU6.h"           // STM32F4                              env:blackpill_f401cc_uni env:blackpill_f401cc_uni_bootloader env:blackpill_f401cc_uni_nobootloade
+  #include "stm32f4/pins_STM32F401CCU6.h"           // STM32F4                              env:blackpill_f401cc_uni env:blackpill_f401cc_uni_bootloader env:blackpill_f401cc_uni_nobootloader
 
 
 //
